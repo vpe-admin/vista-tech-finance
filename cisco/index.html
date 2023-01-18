@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../favicon-full.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Appbar</title>
+  </head>
+  <body>
+    <AppBar color='transparent' elevation={1} >
+      <Toolbar>
+          <img class="logoSize" src="../logo.svg" alt="" />
+         <IconButton class="icon">
+            <Tabs class="coloredIndicator">
+                <Tab class="tab">
+                    <a href="../about-us/" ><b>About Us</b></a>
+                </Tab>
+                <Tab class="tab">
+                    <a href="../managed-services/" ><b>Managed Services</b></a>
+                </Tab>
+                <Tab class="tab">
+                    <a href="../leasing/" ><b>Leasing</b></a>
+                </Tab>
+             </Tabs>
+        </IconButton>
+        <IconButton class="icon">
+            <img class="logoSize" src="../linked-images/Track_122x40.png" alt="" />
+        </IconButton>
+      </Toolbar>
+    </AppBar>
+</body>
+</html>

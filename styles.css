@@ -98,6 +98,31 @@ a{
 .title {
   font-weight: bold;
 }
+.coloredIndicator{
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.logoText {
+  color: #000000;
+}
+.tab {
+  font-weight: bold;
+}
+.logoSize {
+   height: 150px;
+   width: 150px;
+   margin-left: 10rem;
+}
+.logoContainer {
+    margin: auto;
+}
+.icon img {
+  height: 50px;
+  width: 100px;
+}
+.listItemText {
+  color: #fff;
+}
 @media (max-width: 1200px) {
   .Card {
     width: 100%;
