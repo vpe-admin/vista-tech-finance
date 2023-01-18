@@ -54,7 +54,6 @@ a {
 a:hover {
   color: #949494;
 }
-
 .social_links{
   margin:0;
 }
@@ -70,17 +69,20 @@ a:hover {
   width:60%;
 }
 a{
-  font-size:14px;
-  color:#949494 !important;
+  color:#ffffff !important;
 }
-
+.bottom_links a:link{
+  font-size:14px;
+  color:#949494;
+}
 .bottom_links a:hover{
+  font-size:14px;
   color:#777;
 }
 .col {
   display: block;
   float: left;
-  margin: 0%;
+  margin: 0% 0% 0% 3%;
   align-content: center;
 }
 .span_1_of_3-2-1 {
@@ -89,6 +91,12 @@ a{
   margin-right: 2% !important;
   margin-left: 2% !important;
   color: white;
+}
+.span_1_of_6 {
+  width: 13.3%;
+}
+.title {
+  font-weight: bold;
 }
 @media (max-width: 1200px) {
   .Card {
