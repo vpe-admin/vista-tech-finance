@@ -123,6 +123,51 @@ a{
 .listItemText {
   color: #fff;
 }
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.box{
+	Display: block;
+	height: 200px;
+	width: inherit;
+	margin: 1rem;
+}
+
+.box img {
+	width: 80%;
+	object-fit: contain;
+	max-height: 140px;
+}
+	
+
+.Group {
+    zoom:1; /* For IE 6/7 */
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/*  FULL WIDTH GRID OPTIONS  */
+
+.span_1_of_3 {width: 30%;
+box-sizing: border-box;}
+
+
+@media only screen and (max-width: 680px) {
+	.span_1_of_3  { width: 100%; }
+	.box{height: auto;}
+	/* .col{margin:  2% 0% 2% 0%;} */
+	.Group {
+		flex-direction: column;
+	
+	}
+}
 @media (max-width: 1200px) {
   .Card {
     width: 100%;
