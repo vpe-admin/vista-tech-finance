@@ -114,7 +114,7 @@ a{
 margin: 0% 0% 0% 5%;
 }
 .navmenu {
-  margin-left: 17.5rem;
+  margin-left: 19rem;
   width: 100%;
   height: 100%;
   align-items: center;
@@ -145,9 +145,20 @@ height: 28px;
 list-style-type: none;
 }
 .span_1_of_6 {
+  margin: 0% 0% 0% 3%;
   width: 13.3%;
 }
-
+.button {
+  background-color: #999;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
 .title {
   font-weight: bold;
 }
