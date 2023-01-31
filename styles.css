@@ -38,6 +38,16 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.Layout_ms {
+  clear: both;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .Card {
   display: flex;
   margin: auto;
@@ -209,19 +219,24 @@ box-sizing: border-box;}
 
 @media only screen and (max-width: 680px) {
 	.span_1_of_3  { width: 100%; }
-	.box{height: auto;}
-	.Group {
-		flex-direction: column;
-	}
+
   .span_1_of_4 {
     flex-direction: column;
     width:100%;
+  }
+  .span_1_of_6 {
+    flex-direction: column;
+    width:60%;
   }
  .button {
   margin-bottom: 10rem;
  }
   .Header {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
+  }
+  .Layout_ms {
+    width: 100%;
+    margin-top: 30rem;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -230,7 +245,7 @@ box-sizing: border-box;}
     width:100%;
   }
   .Header {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
   }
   .button {
     margin-bottom: 10rem;
@@ -242,26 +257,46 @@ box-sizing: border-box;}
     width:100%;
   }
   .Header {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
   }
   .button {
     margin-bottom: 10rem;
    }
+   .span_1_of_6 {
+    flex-direction: column;
+    width:100%;
+  }
+  .Layout_ms {
+    width: 100%;
+    margin-top: 30rem;
+  }
 }
 @media only screen and (max-width: 700px) {
   .span_1_of_4 {
     flex-direction: column;
     width:100%;
   }
+  .span_1_of_6 {
+    flex-direction: column;
+    width:100%;
+  }
   .Header {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
   }
   .button {
     margin-bottom: 10rem;
    }
+   .Layout_ms {
+    width: 100%;
+    margin-top: 30rem;
+  }
 }
 @media only screen and (max-width: 480px) {
   .span_1_of_4 {
+    flex-direction: column;
+    width:100%;
+  }
+  .span_1_of_6 {
     flex-direction: column;
     width:100%;
   }
@@ -272,7 +307,7 @@ box-sizing: border-box;}
     width:100%;
   }
   .Header {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
   }
   .Layout {
     width: 100%;
