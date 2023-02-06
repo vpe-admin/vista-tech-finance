@@ -162,9 +162,9 @@ list-style-type: none;
   width: 13.3%;
 }
 .button {
-  background-color: #999;
+  background-color: #2bace2;
   border: none;
-  color: white;
+  color: #fff;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -236,7 +236,7 @@ list-style-type: none;
 .span_1_of_1 {
   display: flex;
   width: 100%;
-  margin: 5% 15% 0% 15%;
+  margin: 5% 5% 0% 5%;
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -271,12 +271,83 @@ list-style-type: none;
   text-align: left;
   margin-right: 5rem;
   width: 46%;
+  max-width: 600px;
+}
+.span_1_of_2 img {
+  align-items: center;
+  margin-right: 0rem;
+  max-width: 600px;
+}
+.span_1_of_1_mid {
+  background-color: #949494;
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+  margin: 0%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 2rem 0 2rem 0;
+}
+.span_1_of_1_mid {
+  background-color: #949494;
+  color: #ffffff;
 }
 .bulletpoints {
   padding: 0% 0% 10% 10%;
 }
 .vertical ul {
   list-style-type: none;
+}
+.Products {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.ProductCards {
+  width: 100%;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductCards > h2 {
+  text-align: center;
+}
+.ProductCard {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 3;
+}
+
+.ProductCard > .Image {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 3;
+}
+
+.Image img {
+  object-fit: contain;
+  height: 100%;
+  width: 90%;
+}
+
+.ProductCard > p {
+  margin-top: 1rem;
+  color: inherit;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
 }
 /*  FULL WIDTH GRID OPTIONS  */
 
