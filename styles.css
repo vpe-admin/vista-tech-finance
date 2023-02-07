@@ -141,6 +141,7 @@ a{
   margin-right: 2% !important;
   margin-left: 2% !important;
   color: white;
+  padding-bottom: 2rem;
 }
 .span_vtf_logo {
 margin: 0% 0% 0% 5%;
@@ -237,6 +238,15 @@ list-style-type: none;
   display: flex;
   width: 100%;
   margin: 5% 5% 0% 5%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 2rem;
+}
+.span_1_of_1_cisco {
+  display: flex;
+  width: 100%;
+  margin: 0% 5% 0% 5%;
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -349,6 +359,24 @@ list-style-type: none;
   text-align: center;
   text-decoration: none;
 }
+.CheckListKub {
+  list-style: none;
+  font-size: 1.75rem;
+  padding: 0;
+  margin: 0;
+}
+
+.CheckListKub li {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.CheckListKub li:before {
+  content: '✓';
+margin-right:1em;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 /*  FULL WIDTH GRID OPTIONS  */
 
 .span_1_of_3 {width: 30%;
@@ -369,17 +397,43 @@ box-sizing: border-box;}
   .span_1_of_1 {
     width: 90%;
     flex-direction: column;
+    padding: 5% 0% 0% 15%;
+  }
+  .span_1_of_1_cisco {
+    width: 90%;
+    flex-direction: column;
+    padding: 5% 0% 0% 10%;
+  }
+  .span_1_of_1_leasing {
+    width: 90%;
+    flex-direction: column;
+    padding: 5% 0% 0% 10%;
+  }
+  .span_1_of_1_mid {
+    width: 100%;
+    flex-direction: column;
+    padding: 5% 0% 0% 15%;
   }
   .span_1_of_2 {
     width: 100%;
     flex-direction: column;
     padding-right: 2rem;
   }
-  .Layout_cpl {
+  .span_1_of_3-2-1 {
+    flex-direction: column;
+    width:90%;
+  }
+  .ProductCards {
     width: 100%;
-    height: auto;
-    margin: 2%;
-    min-width: unset;
+    flex-direction: column;
+  }
+  .ProductCard {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  .button {
+    margin-bottom: 2rem;
   }
 }
 @media only screen and (max-width: 1000px) {
