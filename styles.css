@@ -10,7 +10,22 @@ img {
 body {
   width: 100vw;
   height: 100vh;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 115%;
   overflow-x: hidden;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 35px;
+}
+h3 {
+  font-size: 1em;
+  font-weight: 800;
 }
 .home {
   background: #2b2b2b;
@@ -37,6 +52,14 @@ body {
   width: 80%;
   max-width: 200px;
   margin: .5rem 0;
+}
+.navmenu_home a {
+  font-size: 0.6em;
+  font-weight: 700;
+}
+.navmenu a {
+  font-size: 0.6em;
+  font-weight: 700;
 }
 
 .Layout {
@@ -111,11 +134,13 @@ a{
   color:#ffffff !important;
 }
 .bottom_links a:link{
-  font-size:14px;
+  font-size:0.8em;
+  font-weight: 300;
   color:#949494;
 }
 .bottom_links a:hover{
-  font-size:14px;
+  font-size:0.8em;
+  font-weight: 300;
   color:#777;
 }
 .navmenu_home {
@@ -173,6 +198,11 @@ list-style-type: none;
   font-size: 1em;
   font-weight: 600;
   border-radius: 12px;
+}
+.button a {
+  font-size: 1em;
+  line-height: 100%;
+  font-weight: 600;
 }
 .title {
   font-weight: bold;
@@ -232,7 +262,7 @@ list-style-type: none;
 
 }
 .whiteboard {
-  min-height: 646px;
+  min-height: 660px;
 }
 .span_1_of_1 {
   display: flex;
@@ -260,6 +290,16 @@ list-style-type: none;
   justify-content: center;
   flex-direction: row;
   padding-bottom: 2rem;
+}
+.span_1_of_1_leasing_rental {
+  display: flex;
+  width: 100%;
+  margin: 0% 15% 0% 0%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 2rem; 
+  padding-top: 2rem;
 }
 .span_title {
   display: flex;
@@ -369,11 +409,13 @@ list-style-type: none;
 .CheckListKub li {
     display: flex;
     align-items: center;
-    margin: 0;
+    line-height: 30px;
+    margin: 1rem;
+    padding: 1rem;
 }
 .CheckListKub li:before {
   content: '✓';
-margin-right:1em;
+  margin-right:1em;
   font-size: 2.5rem;
   font-weight: bold;
 }
