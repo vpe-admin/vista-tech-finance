@@ -595,6 +595,16 @@ box-sizing: border-box;}
   .button {
     margin-bottom: 2rem;
   }
+  .span_1_of_1_cisco_backgr {
+    width: 100%;
+    flex-direction: column;
+    padding: 5% 0% 0% 10%;
+  }
+  .span_1_of_1_leasing_rental_cpl{
+    width: 100%;
+    flex-direction: column;
+    padding: 5% 0% 0% 10%;
+  }
 }
 @media only screen and (max-width: 1000px) {
   .span_1_of_4 {
@@ -628,6 +638,11 @@ box-sizing: border-box;}
   }
   .span_1_of_1_leasing_rental .vertical{
     margin: 0% 0% 5% 15%;
+  }
+  .span_1_of_1_cisco_backgr {
+    width: 100%;
+    flex-direction: column;
+    padding: 5% 0% 0% 10%;
   }
 
 }
@@ -763,5 +778,10 @@ box-sizing: border-box;}
   .span_1_of_2 {
     width: 100%;
     padding-right: 2rem;
+  }
+  .span_1_of_1_cisco_backgr {
+    width: 100%;
+    flex-direction: column;
+    padding: 5% 0% 0% 20%;
   }
 }
