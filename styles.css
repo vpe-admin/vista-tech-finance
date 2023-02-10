@@ -497,7 +497,8 @@ list-style-type: none;
 
 .ProductCard > p {
   margin-top: 1rem;
-  color: inherit;
+
+  color: #000000;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
