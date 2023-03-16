@@ -616,6 +616,9 @@ box-sizing: border-box;}
   #Meraki {
     padding-bottom: 2rem;
   }
+  .ProductCard_virtual img {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 1000px) {
   .span_1_of_4 {
