@@ -589,6 +589,9 @@ box-sizing: border-box;}
     width: 100%;
     flex-direction: column;
   }
+  .ProductCard_virtual {
+    width: 100%;
+  }
   .ProductCard {
     width: 100%;
     flex-direction: column;
@@ -615,9 +618,6 @@ box-sizing: border-box;}
   }
   #Meraki {
     padding-bottom: 2rem;
-  }
-  .ProductCard_virtual img {
-    width: 100%;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -745,6 +745,13 @@ box-sizing: border-box;}
   #Meraki {
     padding-bottom: 2rem;
   }
+  .ProductCards {
+    width: 100%;
+    flex-direction: column;
+  }
+  .ProductCard_virtual {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 480px) {
   .span_1_of_4 {
@@ -785,6 +792,13 @@ box-sizing: border-box;}
   }
   #Meraki {
     padding-bottom: 2rem;
+  }
+  .ProductCards {
+    width: 100%;
+    flex-direction: column;
+  }
+  .ProductCard_virtual {
+    width: 100%;
   }
 }
 @media (max-width: 1200px) {
