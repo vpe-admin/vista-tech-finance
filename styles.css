@@ -431,6 +431,7 @@ list-style-type: none;
   background-color: #949494;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  padding-right: 1.5rem;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -591,6 +592,7 @@ box-sizing: border-box;}
   }
   .ProductCard_virtual {
     width: 100%;
+    padding-bottom: 2rem;
   }
   .ProductCard {
     width: 100%;
@@ -751,6 +753,7 @@ box-sizing: border-box;}
   }
   .ProductCard_virtual {
     width: 100%;
+    padding-bottom: 2rem;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -799,6 +802,8 @@ box-sizing: border-box;}
   }
   .ProductCard_virtual {
     width: 100%;
+    padding-bottom: 2rem;
+
   }
 }
 @media (max-width: 1200px) {
