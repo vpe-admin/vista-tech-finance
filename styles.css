@@ -478,6 +478,14 @@ list-style-type: none;
   padding-bottom: 5rem;
   flex-grow: 3;
 }
+.ProductCard > .Image-main {
+  height: 220px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 3;
+}
 .ProductCard_virtual {
   width: 22%;
   display: flex;
