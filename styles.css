@@ -209,9 +209,9 @@ list-style-type: none;
   font-weight: bold;
   font-size:0.6em;
   text-align: center;
-  line-height:30px;
+  line-height:100%;
   width: 200px;
-  height: 28px;
+  height: 18px;
   list-style-type: none;
   }
 .span_1_of_6 {
